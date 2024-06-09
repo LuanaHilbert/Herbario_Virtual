@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0704f140-a70e-4a2b-91bb-184496522f11" name="Changes" comment="creating herbario" />
+    <list default="true" id="0704f140-a70e-4a2b-91bb-184496522f11" name="Changes" comment="creating herbario">
+      <change afterPath="$PROJECT_DIR$/inicio/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/herbariodjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/herbariodjango/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/herbariodjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/herbariodjango/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plantas/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/plantas/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plantas/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/plantas/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,24 +30,25 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "LuanaHilbert"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LuanaHilbert&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/LuanaHilbert/Herbario_Virtual.git",
-    "accountId": "104e1e91-1e5c-42ba-b79f-9e92e3d3d44d"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LuanaHilbert/Herbario_Virtual.git&quot;,
+    &quot;accountId&quot;: &quot;104e1e91-1e5c-42ba-b79f-9e92e3d3d44d&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -39,21 +56,28 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2hbhWHQFH5N4tv65eKat5Fcyjvb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/My Drive/TCC2 - Herbário Virtual/pycharm/TesteHerbario&quot;
+    &quot;last_opened_file_path&quot;: &quot;G:/My Drive/TCC2 - Herbário Virtual/pycharm/TesteHerbario/pessoas&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\My Drive\TCC2 - Herbário Virtual\pycharm\TesteHerbario\pessoas" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\My Drive\TCC2 - Herbário Virtual\pycharm\TesteHerbario" />
     </key>
@@ -127,10 +151,30 @@
       <option name="project" value="LOCAL" />
       <updated>1717940986151</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="creating herbario">
+      <option name="closed" value="true" />
+      <created>1717964175156</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717964175156</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="creating herbario" />
     <option name="LAST_COMMIT_MESSAGE" value="creating herbario" />
   </component>

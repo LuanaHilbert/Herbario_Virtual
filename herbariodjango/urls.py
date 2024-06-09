@@ -16,10 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from inicio.views import index
 
 urlpatterns = [
+    path('', index),
     path('admin/', admin.site.urls),
     #include para acessar app
     path('plantas/', include('plantas.urls')),
-    #a cada novo app, novo path devera ser add
+    path('pessoas/', include('pessoas.urls')),
 ]
