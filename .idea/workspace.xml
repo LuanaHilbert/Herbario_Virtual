@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0704f140-a70e-4a2b-91bb-184496522f11" name="Changes" comment="creating herbario">
-      <change afterPath="$PROJECT_DIR$/inicio/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pessoas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pessoas/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pessoas/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pessoas/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pessoas/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pessoas/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pessoas/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pessoas/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pessoas/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/herbariodjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/herbariodjango/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/herbariodjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/herbariodjango/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plantas/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/plantas/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plantas/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/plantas/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="0704f140-a70e-4a2b-91bb-184496522f11" name="Changes" comment="creating herbario" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -159,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717964175156</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="creating herbario">
+      <option name="closed" value="true" />
+      <created>1717969701185</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717969701185</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
