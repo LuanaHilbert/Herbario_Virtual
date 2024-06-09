@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0704f140-a70e-4a2b-91bb-184496522f11" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/TesteHerbario.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/herbariodjango/plantas/urls.py" afterDir="false" />
+    <list default="true" id="0704f140-a70e-4a2b-91bb-184496522f11" name="Changes" comment="creating herbario">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/herbariodjango/plantas/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/herbariodjango/plantas/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/herbariodjango/plantas/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/herbariodjango/plantas/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "LuanaHilbert"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/LuanaHilbert/Herbario_Virtual.git",
+    "accountId": "104e1e91-1e5c-42ba-b79f-9e92e3d3d44d"
+  }
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -99,6 +107,19 @@
       <option name="presentableId" value="Default" />
       <updated>1717868714528</updated>
     </task>
+    <task id="LOCAL-00001" summary="creating herbario">
+      <option name="closed" value="true" />
+      <created>1717880689193</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717880689193</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="creating herbario" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating herbario" />
   </component>
 </project>
