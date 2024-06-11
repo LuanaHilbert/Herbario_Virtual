@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block titulo %} {% endblock %}</title>
+    <style>
+        .conteudo {
+            background-color: #f2f2f2;
+            padding: 5px;
+            float: right;
+            width: 75%;
+        }
+
+        .lateral {
+            background-color: #f2f2f2;
+            padding: 5px;
+            float: left;
+            width: 20%
+        }
+
+        .menu {
+            background-color: orange;
+            padding: 5px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menu">
+        <a href="">Plantas (geral)</a>
+        <a href="angiospermas/">Celulares</a>
+        <a href="moveis/">Móveis</a>
+    </div>
+    <div class="lateral">
+        <h2>Categorias</h2>
+        <ul>
+            <li>Ofertas do dia</li>
+            <li>Angiospermas</li>
+            <li>Famílias</li>
+            <li>outro1</li>
+            <li>outro2</li>
+        </ul>
+    </div>
+    <div class="conteudo">
+        {% block conteudo %} {% endblock %}
+    </div>
+
+</body>
+</html>

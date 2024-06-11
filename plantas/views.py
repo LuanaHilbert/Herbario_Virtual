@@ -1,6 +1,11 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
-# Create your views here.
 def pagina_plantas(request):
-    return HttpResponse('Página de Plantas')
+    return render(request, 'plantas.html')
+
+def angiospermas(request):
+    return render(request, 'angiospermas.html')
+
+def mostra_moveis(request):
+    return render(request, 'moveis.html')

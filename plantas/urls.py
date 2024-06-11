@@ -19,4 +19,7 @@ from . import views
 
 urlpatterns = [
     path('', views.pagina_plantas),
+
+    path('angiospermas/', views.angiospermas),
+    path('moveis/', views.mostra_moveis)
 ]

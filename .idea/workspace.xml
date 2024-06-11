@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0704f140-a70e-4a2b-91bb-184496522f11" name="Changes" comment="creating herbario" />
+    <list default="true" id="0704f140-a70e-4a2b-91bb-184496522f11" name="Changes" comment="creating herbario">
+      <change afterPath="$PROJECT_DIR$/plantas/templates/angiospermas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plantas/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plantas/templates/plantas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pessoas/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pessoas/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pessoas/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pessoas/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plantas/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/plantas/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plantas/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/plantas/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -151,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717969701185</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="creating herbario">
+      <option name="closed" value="true" />
+      <created>1717976780981</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717976780981</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

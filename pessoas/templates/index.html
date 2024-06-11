@@ -15,19 +15,27 @@
         </tr>
     </thead>
     <tbody>
+    {% for cliente in clientes %}
+
         <tr>
-            <td> Luana Hilbert</td>
-            <td> Louro</td>
+            <td> {{cliente.nome|upper}}</td>
+            <td> {{cliente.qtde_reg}}</td>
         </tr>
-        <tr>
-            <td> Lucas Medina</td>
-            <td> Alface</td>
-        </tr>
-        <tr>
-            <td> Eric Cartman</td>
-            <td> Grama</td>
-        </tr>
+    {% endfor %}
+
     </tbody>
 </table>
+<p> Ultimo acesso: {{ultimo_acesso}}</p>
+
+{% if idade < 12 %}
+    <p>Criança</p>
+{% elif idade >= 12 and idade <= 18 %}
+    <p>Adolescente</p>
+{% else %}
+    <p>Adulto</p>
+{% endif %}
+
+<p> Total de clientes: {{clientes|length}}</p>
+{{tipo}}
 </body>
 </html>
